@@ -1,0 +1,48 @@
+*:not(.modal, button) {
+  padding: 0;
+  margin: 0;
+}
+.header {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 3px solid blue;
+}
+.header input,
+.header select,
+button {
+  border-width: 1px;
+  padding: 5px 20px;
+  border-radius: 5px;
+}
+.header button {
+  background: blue;
+}
+button {
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.section {
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btnSec {
+  display: flex;
+  gap: 5px;
+}
+
+.btnSec button:first-child,
+.closeBtn {
+  background-color: red;
+}
+.btnSec button:last-child {
+  background-color: greenyellow;
+}
+.btnChange {
+  background: blue;
+}
